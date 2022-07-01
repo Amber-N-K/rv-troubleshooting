@@ -1,0 +1,178 @@
+* {
+  font-size: 18px;
+  color: #F9FAF8;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100px;
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+
+}
+
+.flex-container {
+  display: flex;
+}
+
+
+.main-section {
+  background-color: white;
+
+}
+
+.navbar {
+  background-color: #1F2937;
+  padding: 20px 40px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar logo {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #1F2937;
+}
+
+
+.header .container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 40px;
+  gap: 20px;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #F9FAF8;
+}
+
+.header p {
+  font-size: 18px;
+  color: #E5E7EB;
+  margin-bottom: 10px;
+}
+
+.header img {
+  height: 260px;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #4882F6;
+  border-radius: 40px;
+  padding: 8px 16px;
+}
+
+img {
+  width: auto;
+  height: 200px;
+}
+
+.boxes .title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1F2937;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.boxes .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.box {
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+}
+
+.box img {
+  border-color: #4882F6;
+  border-style: solid;
+}
+
+.box .text {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
+
+.quote {
+  background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  padding: 15px;
+}
+
+.quote .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote p, .quote h3 {
+  font-size: 36px;
+  font-weight: light italic;
+  color: #1F2937;
+}
+
+.quote h3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footer {
+  background-color: #1F2937;
+}
+
+.notify {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.notify .container {
+  background-color: #3882F6;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px 75px;
+  width: 1050px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
